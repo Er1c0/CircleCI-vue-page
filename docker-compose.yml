@@ -4,6 +4,7 @@ services:
     build:
       context: ./                       # 指定设定上下文根目录，然后以该目录为准指定Dockerfile
       dockerfile: Dockerfile
+    container_name: xx-web          # 自定义容器名
     environment:
       TZ: Asia/Shanghai
     ports:
