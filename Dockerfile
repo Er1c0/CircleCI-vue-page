@@ -8,7 +8,7 @@ WORKDIR /app
 COPY ./ .
 
 # 设置淘宝npm镜像
-RUN npm install -g cnpm --registry=https://registry.npm.taobao.org
+RUN npm install -g cnpm --registry=https://npmmirror.com
 # 安装依赖
 RUN npm install
 
